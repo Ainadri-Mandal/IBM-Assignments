@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        body h2{
+            text-align: center;
+        }
+        .parent{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: solid red;
+            overflow: hidden;
+            width: max-content;
+        }
+        .a{
+            border: 2px solid skyblue;
+            text-align: center;
+            margin: 10px;
+        }
+        .b{
+            margin: 5px;
+        }
+        img{
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Visualizing Box Model</h2>
+    <div class="parent" >
+        <div class="first a"><img src="./assets/4752200.jpg" alt="girl" height="200px">
+            <h4 class="b">Vijay Shekhar Sharma</h4>
+            <p class="b">Founder & CEO</p>
+            <img src="https://i.pinimg.com/736x/49/29/52/492952b850fc17b25a06e9d12837a2e8.jpg" alt=" paytm" height="50px">
+        </div>
+        <div class="second a"><img src="./assets/4752200.jpg" alt="girl" height="200px">
+            <h4 class="b">Vijay Shekhar Sharma</h4>
+            <p class="b">Founder & CEO</p>
+            <img src="https://i.pinimg.com/736x/49/29/52/492952b850fc17b25a06e9d12837a2e8.jpg" alt=" paytm" height="50px">
+        </div>
+        <div class="third a"><img src="./assets/4752200.jpg" alt="girl" height="200px">
+            <h4 class="b">Vijay Shekhar Sharma</h4>
+            <p class="b">Founder & CEO</p>
+            <img src="https://i.pinimg.com/736x/49/29/52/492952b850fc17b25a06e9d12837a2e8.jpg" alt=" paytm" height="50px">
+        </div>
+        <div class="fourth a"><img src="./assets/4752200.jpg" alt="girl" height="200px">
+            <h4 class="b">Vijay Shekhar Sharma</h4>
+            <p class="b">Founder & CEO</p>
+            <img src="https://i.pinimg.com/736x/49/29/52/492952b850fc17b25a06e9d12837a2e8.jpg" alt=" paytm" height="50px">
+        </div>
+    </div>
+
+    <ul> In the Above figure, we have
+        <li>one parent box(red box)</li>
+        <li>four child boxes (blue-boxes)</li>
+    </ul>
+
+</body>
+</html>
