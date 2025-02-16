@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e6f7ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+/* Magic Box Container */
+.magic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60vh;
+}
+
+/* Magic Box Styling */
+.magic-box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Hover Effects */
+.magic-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Click Effect - Turns into a Circle */
+.magic-box:active {
+    border-radius: 50%;
+}
+
+/* Special Hover Effect for Middle Box */
+.special-box:hover {
+    background: url('4752200.jpg') center/cover no-repeat;
+    color: white;
+}
