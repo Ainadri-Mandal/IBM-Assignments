@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
     <style>
-       /* *{
+       *{
         background-color: peachpuff;
-       } */
+       }
        p{
             background-color: aquamarine;
         }
-        /* #btech1{
+        #btech1{
             background-color: red;
-        } */
+        }
         .para1{
             background-color: blue;
         }
@@ -21,19 +21,39 @@
             background-color: yellow;
         }
         div p{
-            background-color: teal;    /* Descendent selector*/
+            background-color: teal;  
         }
 
-        div > p{
+        div > p{                         
             background-color: blueviolet;
         }
-
+        .parent > p{
+            background-color: green;
+        }
+        #para3+h1{           
+            background-color: red;
+        }
+        #para3~h1{            
+            background-color: red;
+        }
+        input[type="text"]{                  
+            width: 200px;
+        }
+        /* div{
+            overflow: auto;
+        } */
     </style>
 </head>
 <body>
     <div id="btech1">
         <div>
-            <p>More Nested</p>
+            <div>
+                <div>
+                    <p>More Nested</p>
+                </div>
+                <p>Welcome</p>
+                <p>Brother of this Welcome</p>
+            </div>
         </div>
         <div>
             <p>Welcome to child paragraph</p>
@@ -54,12 +74,37 @@
     </div>
     <div class="parent">
         <p>Paragraph</p>
+        <p id="para3">Paragraph</p>
+        <h1>This is heading</h1>
         <p>Paragraph</p>
-        <p>Paragraph</p>
+        <h1>This is heading 2</h1>
         <div>
             <p>Paragraph</p>
-            <p><Paragraph/p>
+            <p>Paragraph</p>
         </div>
     </div>
+    <!-- <input type="text">
+    <div style="height: 200px; width: 200px; border: 1px solid grey;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius facere accusamus possimus nihil ipsa sunt sint dicta distinctio illum similique deleniti, laudantium error incidunt soluta. Iste ab consequatur enim.
+        Ducimus ratione esse exercitationem. Veniam nihil quis recusandae consequuntur officiis facere tenetur mollitia, minus dolor, id vitae eaque architecto. Veritatis veniam dicta, tenetur vitae inventore nesciunt perspiciatis voluptas. Est, a.
+        Officiis quia rerum mollitia voluptatum, dolores hic ad a. Necessitatibus magni veritatis quae reprehenderit numquam, libero nemo vel tenetur nisi quasi obcaecati ratione earum dolorum omnis? Earum quae sunt qui.
+        Distinctio corporis saepe neque in incidunt, culpa rerum? Ut eos quas iste fugit, tempora natus neque magni vel exercitationem necessitatibus error libero earum optio? Vitae quod facere facilis. Minus, ullam?
+        Quisquam, error distinctio sint sequi ratione ad vel incidunt nemo amet asperiores omnis architecto dignissimos facere totam labore perspiciatis? Ducimus quasi sequi consequatur deleniti dicta qui quae, eius eum dolor.
+        Vel porro optio numquam facilis officiis molestiae, quas harum earum illo eius excepturi minima laudantium cum quidem. Eius aperiam illo deleniti et quidem veniam harum quo, quam nulla, velit excepturi!
+        Beatae magnam in commodi! Dignissimos recusandae in doloribus eum, aperiam illum, totam quos esse facilis distinctio cumque aliquid saepe aut eveniet praesentium obcaecati accusamus labore ea iste, voluptatibus cupiditate laudantium.
+        Ullam, harum provident! Doloribus, ducimus? Iusto error corrupti totam ipsam dolores, consequatur ab quidem eius, voluptates, fugiat tempore consequuntur repellat architecto officiis quis optio ad. Deleniti totam quasi eveniet voluptatibus.
+        Similique nihil nostrum impedit facilis ipsum autem fugit odit earum fuga culpa at provident esse iure possimus temporibus, officiis unde? Unde vitae voluptas cumque sapiente nam eos impedit vero voluptatum.
+        Officiis dignissimos excepturi veritatis? Consequuntur, eum perferendis, voluptatibus mollitia accusamus voluptas inventore amet ratione est culpa odit temporibus perspiciatis dolores iusto eos quam cumque maxime! Dolorem eveniet aliquid sapiente nisi!
+        Ex necessitatibus explicabo deleniti delectus repellat provident dolor! Expedita libero dignissimos sapiente ad molestiae, temporibus animi rem veniam quae fuga, minus quidem quis obcaecati. Alias sunt culpa veniam tenetur tempore?
+        Laudantium deleniti voluptas culpa dolores quibusdam, vitae laborum! Dolor magnam assumenda, odio molestias nostrum quo earum voluptate, incidunt officia autem aliquam labore quaerat mollitia quos reprehenderit debitis excepturi nihil dolore.
+        Autem, beatae natus. Rerum a hic provident expedita molestiae omnis ipsa. Consequatur vero quibusdam facere est eius tempore! In ea exercitationem, quasi iusto unde omnis ad soluta iure debitis consequatur.
+        Totam amet blanditiis odit nam quas explicabo nobis cumque voluptas ducimus, vero hic aspernatur delectus repellat consequatur laborum aperiam, dolorum temporibus unde autem quasi facere tempore rem maiores. Eum, praesentium?
+        Eos assumenda quos quod expedita atque ipsa vitae sed libero, dolor consequuntur totam iusto itaque? Quasi alias aspernatur esse. Eveniet harum commodi neque debitis ipsum culpa fugit iure, fugiat asperiores!
+        Quae animi earum temporibus vel. Dolore numquam assumenda harum saepe! Laudantium est non eum! Commodi dolore, ea omnis eaque consectetur qui, ex, corrupti pariatur non numquam vero dolor nemo modi?
+        Neque tenetur cupiditate excepturi ipsa amet id similique repudiandae nam asperiores a libero, harum ab quos provident illum voluptas? Iusto, perferendis magni. Quis sapiente quae quisquam excepturi nisi, dolores odio.
+        Exercitationem architecto cumque odit possimus officiis debitis dolores nesciunt eos optio, impedit, ipsum, nisi at inventore quae dignissimos totam. Similique quaerat hic, quidem consectetur voluptates dolore iusto cum dicta veniam.
+        Mollitia nostrum facilis distinctio? Officiis animi quis excepturi a distinctio fugiat magni facilis ratione iusto cupiditate deleniti ad libero nihil voluptatem repellat, nam incidunt labore! Ab vero rerum labore ut!
+        Deleniti minima culpa magnam temporibus velit perferendis animi! Repellat non aspernatur illum esse accusamus nihil, quidem itaque eveniet sapiente sed dicta. Perspiciatis error aut sit repellendus sequi, fugiat corrupti soluta.</p>
+    </div> -->
 </body>
 </html>
