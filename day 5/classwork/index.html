@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+       /* *{
+        background-color: peachpuff;
+       } */
+       p{
+            background-color: aquamarine;
+        }
+        /* #btech1{
+            background-color: red;
+        } */
+        .para1{
+            background-color: blue;
+        }
+        .para2{
+            background-color: yellow;
+        }
+        div p{
+            background-color: teal;    /* Descendent selector*/
+        }
+
+        div > p{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="btech1">
+        <div>
+            <p>More Nested</p>
+        </div>
+        <div>
+            <p>Welcome to child paragraph</p>
+        </div>
+        <p class="para1">This is a paragraph</p>
+    </div>
+    <div id="btech2">
+        <p class="para1">This is a paragraph</p>
+    </div>
+    <div id="btech3">
+        <p class="para2">This is a paragraph</p>
+    </div>
+    <div id="btech4">
+        <p class="para2">This is a paragraph</p>
+    </div>
+    <div>
+        <p>This is a paragraph 5</p>
+    </div>
+    <div class="parent">
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <div>
+            <p>Paragraph</p>
+            <p><Paragraph/p>
+        </div>
+    </div>
+</body>
+</html>
