@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    margin: 0;
+}
+
+.keyboard-frame {
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.keyboard-container {
+    padding: 10px;
+    display: inline-block;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    gap: 8px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.key:hover {
+    background-color: #666;
+}
+
+.key.space {
+    width: 300px;
+}
+
+.key.shift, .key.tab, .key.caps, .key.enter, .key.backspace {
+    width: 80px;
+}
+
+.key.control, .key.alt, .key.win, .key.menu {
+    width: 60px;
+}
