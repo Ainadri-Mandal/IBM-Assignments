@@ -1,4 +1,4 @@
-#parent{
+/* #parent{
     width: 100%;
     border: 1px solid gray;
     height: 400px;
@@ -13,15 +13,94 @@
     grid-area: 1/2/5/4;
 }
 
-/* #parent>:nth-child(1){
+#parent>:nth-child(1){
     grid-area: 1/1/2/3;
     background-color: brown;
-} */
+}
 
 #parent>div{
-    /* width: 200px; */
+    width: 200px;
     border: 1px solid green;
-    /* height: 200px; */
+    height: 200px;
     background-color: aqua;
     margin-right: 10px;
+} */
+
+/* #parent{
+    width: 100%;
+    border: 1px solid gray;
+    height: 400px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+#parent > div:nth-child(1){
+    background-color: blue;
+    grid-area: 1/1/1/3;
+}
+
+#parent > div:nth-child(2){
+    background-color: yellowgreen;
+    grid-area:  ;
+}
+
+#parent > div:nth-child(3){
+    background-color: pink;
+}
+
+#parent > div:nth-child(4){
+    background-color: yellow;
+    grid-area: 2/1/3/2;
+}
+
+#parent > div:nth-child(5){
+    background-color: red;
+}
+
+#parent > div:nth-child(6){
+    background-color: violet;
+}
+
+#parent > div:nth-child(7){
+    background-color: teal;
+} */
+:root{
+    --primary-color: blue;
+    --secondary-color: yellow;
+    --font-color:pink;
+}
+ #parent{
+    width: 100%;
+    border: 1px solid gray;
+    height: 400px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+#parent>div{
+    width: 200px;
+    border: 1px solid green;
+    height: 200px;
+    background-color: aqua;
+    margin-right: 10px;
+}
+
+#parent>div:nth-child(1){
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+#parent>div:nth-child(2){
+    background-color: var(--secondary-color);
+}
+#parent>div:nth-child(3){
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    #parent{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
