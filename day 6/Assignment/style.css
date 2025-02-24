@@ -4,288 +4,288 @@
 }
 
 body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: white;
-            padding: 13px 10rem;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+                padding: 13px 10rem;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
 
-        ul {
-            list-style: none;
-            display: flex;
-            align-items: center;
-            padding: 0;
-            margin: 0;
-        }
+            ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                padding: 0;
+                margin: 0;
+            }
 
-        ul img {
-            height: 40px;
-            width: 7rem;
-            margin-right: 15px;
-        }
+            ul img {
+                height: 40px;
+                width: 7rem;
+                margin-right: 15px;
+            }
 
-        li {
-            font-weight: 800;
-            margin: 0 15px;
-            position: relative;
-            cursor: pointer;
-            font-size: 16px;
-        }
+            li {
+                font-weight: 800;
+                margin: 0 15px;
+                position: relative;
+                cursor: pointer;
+                font-size: 16px;
+            }
 
-        li::after {
-            content: '\f107';
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
-            margin-left: 8px;
-        }
+            li::after {
+                content: '\f107';
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 900;
+                margin-left: 8px;
+            }
 
-        .right-section {
-            display: flex;
-            align-items: center;
-        }
+            .right-section {
+                display: flex;
+                align-items: center;
+            }
 
-        .download-button {
-            background-color: transparent;
-            color: blueviolet;
-            padding: 8px 15px;
-            border-radius: 20px;
-            margin-right: 15px;
-            cursor: pointer;
-        }
+            .download-button {
+                background-color: transparent;
+                color: blueviolet;
+                padding: 8px 15px;
+                border-radius: 20px;
+                margin-right: 15px;
+                cursor: pointer;
+            }
 
-        .download-button img {
-            height: 20px;
-            margin-right: 8px;
-        }
+            .download-button img {
+                height: 20px;
+                margin-right: 8px;
+            }
 
-        .sign-in {
-            display: flex;
-            align-items: center;
-            background-color: blue;
-            padding: 8px 15px;
-            border-radius: 80px;
-            color: white;
-        }
+            .sign-in {
+                display: flex;
+                align-items: center;
+                background-color: blue;
+                padding: 8px 15px;
+                border-radius: 80px;
+                color: white;
+            }
 
-        .sign-in img {
-            cursor: pointer;
-            border-radius: 50%;
-            background-color: skyblue;
-            height: 30px;
-            margin-right: 10px;
-        }
+            .sign-in img {
+                cursor: pointer;
+                border-radius: 50%;
+                background-color: skyblue;
+                height: 30px;
+                margin-right: 10px;
+            }
 
-        .sign-in h6 {
-            cursor: pointer;
-            margin: 0;
-            font-size: 20px;
-            padding-left: 5px;
-        }
+            .sign-in h6 {
+                cursor: pointer;
+                margin: 0;
+                font-size: 20px;
+                padding-left: 5px;
+            }
 
 
 
-        main {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            justify-content: center;
-            padding: 20px;
-            background-color: rgb(211, 222, 239);
-        }
-        
-        .arrow {
-            max-width: 100px;
-            height: auto;
-        }
-        .content{
-            border-radius: 25px;
-            display: flex;
-            flex-direction: row; 
-            overflow: hidden;
-        }
-        .flight{
-            height: 60px;
-            width: 90px;
-            color: white;
-        }
-        .family{
-            height: 25rem;
-            width: 25rem;
-        }
-        .textContant{
-         height: 25rem;
-         width: 50rem;
-        background:linear-gradient(rgb(48, 63, 149),rgb(60, 106, 244));
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        }
-        .textontent-child{
-            display: flex;
-            justify-content: center;
-            color: white;
-            align-items: end;
-            margin-bottom: 5px;
-            column-gap: 6px;
-        }
-        .textontent-child h3{
-            font-weight: 800;
-            font-size: xx-large;
-        }
-        .textontent-child p{
-            font-weight: 600;
-            font-size: large;
-        }
-        .textontent-child h5{
-            background: white;
-            border-radius: 5px;
-            color: black;
-            padding: .4rem;
-            font-weight: 800;
-        }
-        .textontent-child-2 h2 {
-            color: rgb(255, 255, 0);
-            font-size: 3.5rem; 
-            font-weight: bold;
-        }
-        .textontent-child-2{
-            text-align: center;
-            position: relative;
-        }
-        .textontent-child-2 h3{
-            margin: 6px;
-            color: white;
-            font-size: 1.8rem;
-            font-weight: 200;
-        }
-        #cuponCode{
-            margin-left: 4rem;
-            background:yellow;
-            border-radius: 20px;
-            padding: .3rem;
-            margin-top: 4px ;
-            width: 23rem;
-        }
-        #cuponCode h3{
-            color: black;
-            font-weight: 600;
-            font-size: 1.4rem;
-        }
-        #apply {
-            position: absolute;
-            right:10px;
-            bottom: 5px;
+            main {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                justify-content: center;
+                padding: 20px;
+                background-color: rgb(211, 222, 239);
+            }
             
-            color: white;
-        }
-
-        .Lowercontent {
-            margin-top: 1rem;
-            display: flex;
-            justify-content: center; /* Centers the content */
-            padding: 20px;
-            column-gap: 1rem;
-            background: rgb(254, 254, 254);
-        }
-        
-        .recharge {
-            width: auto;/* Adjust width as needed */
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-        
-        .recharge h2 {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-        }
-        
-        .recharge ul {
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap; /* Allow wrapping */
-            margin-top: 50px; /* Space below heading */
-            padding: 0;
-        }
-        
-        .recharge ul li {
+            .arrow {
+                max-width: 100px;
+                height: auto;
+            }
+            .content{
+                border-radius: 25px;
+                display: flex;
+                flex-direction: row; 
+                overflow: hidden;
+            }
+            .flight{
+                height: 60px;
+                width: 90px;
+                color: white;
+            }
+            .family{
+                height: 25rem;
+                width: 25rem;
+            }
+            .textContant{
+            height: 25rem;
+            width: 50rem;
+            background:linear-gradient(rgb(48, 63, 149),rgb(60, 106, 244));
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
-            width: 100px; /* Adjust as needed */
-            text-align: center;
-            margin: 10px;
-        }
-        
-        .recharge ul li img {
-            width: 50px; /* Adjust size */
-            height: 50px;
-            margin-bottom: 5px;
-        }
-        
-        .recharge ul li p {
-            font-size: 14px;
-            color: #555;
-        }
-        
-        .rechargeNow {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 15px;
-            margin-top: 20px;
-            border-top: 1px solid #ccc;
-            column-gap: 3px;
-            background: skyblue;
-            border-radius: 10px;
-        }
-        
-        .rechargeNow img {
-            width: 40px;
-            height: 40px;
-            margin-bottom: 10px;
-        }
-        
-        .rechargeNow p {
-            font-size: 16px;
-            text-align: center;
-            margin-bottom: 10px;
-            padding: 0px 10px;
-        }
-        
-        .rechargeNow h5 {
-            color: blue;
-            font-weight: bold;
-            font-size: large;
-            cursor: pointer;
-            border: 1px solid black;
-            padding: 12px;
-            border-radius: 30px;
-        }
-        #a::after {
-            content: ""; /* Empty content removes the arrow */
-        }
-        #ab{
-         border-radius: 50px;
-        }
-        
+            position: relative;
+            }
+            .textontent-child{
+                display: flex;
+                justify-content: center;
+                color: white;
+                align-items: end;
+                margin-bottom: 5px;
+                column-gap: 6px;
+            }
+            .textontent-child h3{
+                font-weight: 800;
+                font-size: xx-large;
+            }
+            .textontent-child p{
+                font-weight: 600;
+                font-size: large;
+            }
+            .textontent-child h5{
+                background: white;
+                border-radius: 5px;
+                color: black;
+                padding: .4rem;
+                font-weight: 800;
+            }
+            .textontent-child-2 h2 {
+                color: rgb(255, 255, 0);
+                font-size: 3.5rem; 
+                font-weight: bold;
+            }
+            .textontent-child-2{
+                text-align: center;
+                position: relative;
+            }
+            .textontent-child-2 h3{
+                margin: 6px;
+                color: white;
+                font-size: 1.8rem;
+                font-weight: 200;
+            }
+            #cuponCode{
+                margin-left: 4rem;
+                background:yellow;
+                border-radius: 20px;
+                padding: .3rem;
+                margin-top: 4px ;
+                width: 23rem;
+            }
+            #cuponCode h3{
+                color: black;
+                font-weight: 600;
+                font-size: 1.4rem;
+            }
+            #apply {
+                position: absolute;
+                right:10px;
+                bottom: 5px;
+                
+                color: white;
+            }
 
-        
-        
+            .Lowercontent {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: center; /* Centers the content */
+                padding: 20px;
+                column-gap: 1rem;
+                background: rgb(254, 254, 254);
+            }
+            
+            .recharge {
+                width: auto;/* Adjust width as needed */
+                padding: 20px;
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                position: relative;
+            }
+            
+            .recharge h2 {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                font-size: 24px;
+                font-weight: bold;
+                color: #333;
+            }
+            
+            .recharge ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap; /* Allow wrapping */
+                margin-top: 50px; /* Space below heading */
+                padding: 0;
+            }
+            
+            .recharge ul li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100px; /* Adjust as needed */
+                text-align: center;
+                margin: 10px;
+            }
+            
+            .recharge ul li img {
+                width: 50px; /* Adjust size */
+                height: 50px;
+                margin-bottom: 5px;
+            }
+            
+            .recharge ul li p {
+                font-size: 14px;
+                color: #555;
+            }
+            
+            .rechargeNow {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px;
+                margin-top: 20px;
+                border-top: 1px solid #ccc;
+                column-gap: 3px;
+                background: skyblue;
+                border-radius: 10px;
+            }
+            
+            .rechargeNow img {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 10px;
+            }
+            
+            .rechargeNow p {
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 10px;
+                padding: 0px 10px;
+            }
+            
+            .rechargeNow h5 {
+                color: blue;
+                font-weight: bold;
+                font-size: large;
+                cursor: pointer;
+                border: 1px solid black;
+                padding: 12px;
+                border-radius: 30px;
+            }
+            #a::after {
+                content: ""; /* Empty content removes the arrow */
+            }
+            #ab{
+            border-radius: 50px;
+            }
+            
+
+            
+            
