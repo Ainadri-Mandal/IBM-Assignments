@@ -1,0 +1,33 @@
+<!-- index.html - Movie Form Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add a Movie</h1>
+        <form id="movieForm">
+            <input type="text" id="name" placeholder="Movie Name" required>
+            <textarea id="description" placeholder="Movie Description" required></textarea>
+            <input type="number" id="year" placeholder="Release Year" required>
+            <input type="number" id="rating" placeholder="IMDb Rating (0-10)" step="0.1" min="0" max="10" required>
+            <select id="genre" required>
+                <option value="">Select Genre</option>
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Horror">Horror</option>
+            </select>
+            <input type="url" id="poster" placeholder="Movie Poster URL" required>
+            <button type="submit">Add Movie</button>
+        </form>
+        <button onclick="location.href='movie.html'">View Movies</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

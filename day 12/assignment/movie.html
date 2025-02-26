@@ -1,0 +1,32 @@
+<!-- movie.html - Movie List Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie List</h1>
+        <input type="text" id="search" placeholder="Search by name or genre">
+        <table>
+            <thead>
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Description</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                    <th>Poster</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="movieTable"></tbody>
+        </table>
+        <button onclick="location.href='index.html'">Back to Home</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

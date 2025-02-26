@@ -1,0 +1,44 @@
+body{
+    background-image: url(https://storage.needpix.com/rsynced_images/blue-1273089_1280.jpg);
+}
+#parent{
+    width: 25%;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    backdrop-filter: blur(30px);
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+input:focus{
+    background-color: rgb(216, 186, 147);
+}
+#parent>form>button{
+    width: 50%;
+    padding: 10px;
+    background-color: green;
+}
+#parent>form>button:hover{
+    background-color: green;
+    color: white;
+}
+table{
+    border: 1px solid gray;
+    color: white;
+    margin: auto;
+    width: 75%;
+    margin-top: 50px;
+    padding: 5px;
+    
+}
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
