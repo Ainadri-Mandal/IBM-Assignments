@@ -1,0 +1,141 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff5f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ffccd5;
+    padding: 15px 0;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    background-color: #ff8fab;
+    color: white;
+}
+
+/* Filters and Sorting */
+div > input, select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffafcc;
+    outline: none;
+    margin: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+div > input:focus, select:focus {
+    border-color: #ff4d6d;
+    box-shadow: 0 0 10px rgba(255, 77, 109, 0.5);
+}
+
+/* Product Container */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Product Box (1:1 Aspect Ratio) */
+.parentBox {
+    background-color: #fff;
+    border: 2px solid #ffafcc;
+    border-radius: 15px;
+    width: 250px; /* Fixed width */
+    height: 250px; /* Same as width to make it square */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ensure hover effect remains */
+.parentBox:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+.parentBox img {
+    width: 100%;
+    height: 60%; /* Adjust image height */
+    object-fit: contain; /* Ensure image fits well */
+    border-radius: 10px;
+}
+
+/* Product Details */
+.parentBox h2 {
+    font-size: 14px;
+    color: #ff4d6d;
+    margin: 5px 0;
+}
+
+.parentBox p {
+    font-size: 12px;
+    color: #555;
+    margin: 2px 0;
+}
+
+/* Button */
+.parentBox button {
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.parentBox button:hover {
+    background-color: #ff8fab;
+    transform: scale(1.1);
+}
+
+/* Cute Floating Animation */
+@keyframes floaty {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+
+.parentBox:hover {
+    animation: floaty 1s infinite ease-in-out;
+}
