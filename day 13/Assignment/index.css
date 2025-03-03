@@ -93,8 +93,9 @@ div > input:focus, select:focus {
 .parentBox img {
     width: 100%;
     height: 60%; /* Adjust image height */
-    object-fit: contain; /* Ensure image fits well */
+    object-fit: contain; /* Ensure the full image is visible */
     border-radius: 10px;
+    display: block;
 }
 
 /* Product Details */
@@ -102,6 +103,9 @@ div > input:focus, select:focus {
     font-size: 14px;
     color: #ff4d6d;
     margin: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .parentBox p {
@@ -120,8 +124,8 @@ div > input:focus, select:focus {
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    width: 80%;
     position: relative;
-    overflow: hidden;
 }
 
 .parentBox button:hover {
