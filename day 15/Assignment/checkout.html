@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <button id="Back" onclick="backToProducts()">Back to Products</button>
+    </header>
+
+    <form id="checkout-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Address" required></textarea>
+        <select>
+            <option value="cod">Cash on Delivery</option>
+            <option value="upi">UPI Payment</option>
+        </select>
+        <h2>Order Summary</h2>
+        <table id="order-summary"></table>
+
+        <h2>Total: <span id="checkout-total">0</span></h2>
+        <button type="submit">Place Order</button>
+    </form>
+
+    <script src="checkout.js"></script>
+</body>
+</html>

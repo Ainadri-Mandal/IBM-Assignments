@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul id="ulel">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contuct Us</a>
+            </li>
+        </ul>
+    </nav>
+    <br><br><br>
+    <header>
+        <h1>Product Listing</h1>
+        <input type="text" id="search" placeholder="Search products..." oninput="searchProducts()">
+        <select id="sort" onchange="updateProducts()">
+            <option value="low-high">Price: Low to High</option>
+            <option value="high-low">Price: High to Low</option>
+        </select>
+        <select id="filter" onchange="updateProducts()">
+            <option value="all">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Wearable">Wearable</option>
+            <option value="Fitness">Fitness</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+            <option value="Accessories">Accessories</option>
+        </select>
+        <button onclick="goToCart()">Go to Cart</button>
+    </header>
+    <div id="products"></div>
+    <script src="script.js"></script>
+</body>
+</html>
