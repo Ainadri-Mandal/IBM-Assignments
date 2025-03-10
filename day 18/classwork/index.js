@@ -1,4 +1,4 @@
-let API_KEY = "AIzaSyA9tjlgj15UHu0BwDBg2MjhCfVwcZRnPTk";
+let API_KEY = 
 let search_term = document.getElementById("query").value || "university";
 let videoContainer = document.getElementById('video-data');
 
