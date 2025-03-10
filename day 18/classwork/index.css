@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#menu{
+    border: none;
+    background-color: #fff;
+}
+#menu img{
+    height: 40px;
+    width: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.logo img {
+    height: 55px;
+    width: 130px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+#search {
+    height: 30px;
+    width: 550px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-left: 10px;
+}
+
+#searchBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#searchBtn img {
+    width: 20px;
+    height: 20px;
+}
+
+#voiceSearchBtn {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border: none;
+}
+
+#voiceSearchBtn img {
+    width: 20px;
+    height: 20px;
+}
+
+.create-btn {
+    background-color: #ddd;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+#notification{
+    border: none;
+    background-color: #fff;
+}
+#notification img{
+    height: 30px;
+    width: 30px;
+}
+
+.user-icon img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.user-icon{
+    border: none;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    margin-top: -70px;
+    width: 200px;
+    background: #f8f8f8;
+    padding: 20px;
+    height: 100vh;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container ul li img {
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+}
+
+.container ul li:hover {
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.uper {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background: #f8f8f8;
+    margin-left: 240px;
+}
+
+.uper ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.uper ul li {
+    list-style: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+    background: #e0e0e0;
+}
+
+.uper ul li:hover {
+    background: #ccc;
+}

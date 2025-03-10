@@ -486,3 +486,55 @@ body{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1 1 20%; */
+    align-items: flex-start;
+    margin-bottom: 20px;    
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;    
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #243115;
+    margin-bottom: 10px;   
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #243115;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #BC6C25;
+    border-radius: 6px;
+}
