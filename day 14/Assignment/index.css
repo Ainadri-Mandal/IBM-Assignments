@@ -538,3 +538,29 @@ footer .install .row img{
     border: 1px solid #BC6C25;
     border-radius: 6px;
 }
+
+footer .install img{
+    margin: 10px 0 15px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: rgb(185, 4, 73);
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+}
+
+/* Start Media query */
+
+@media (max-width:700px){
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
