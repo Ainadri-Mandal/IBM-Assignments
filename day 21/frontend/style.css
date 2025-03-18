@@ -1,0 +1,24 @@
+#title-add{
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid greenyellow;
+}
+
+#parent{
+    display:grid;
+    grid-template-columns : repeat(4 , 1fr);
+    margin : auto;
+    gap: 20px;
+    padding : 20px;
+}
+
+.box{
+    width : 250px;
+    height : 300px;
+    border : 1px solid gray;
+    padding : 20px;
+    text-align : center;
+    box-shadow: 2px solid black;
+}
