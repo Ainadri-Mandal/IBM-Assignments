@@ -1,0 +1,64 @@
+{
+    "posts": [
+      {
+        "id": "1",
+        "title": "a title",
+        "views": 100
+      },
+      {
+        "id": "2",
+        "title": "another title",
+        "views": 200
+      },
+      {
+        "id": "5465",
+        "title": "rthh",
+        "viwes": 0.4849042918426454
+      },
+      {
+        "id": "4234",
+        "title": "tfht",
+        "viwes": 61.21912551402771
+      },
+      {
+        "id": "6c4d",
+        "title": "rtsht",
+        "views": 87.64499973419757
+      },
+      {
+        "id": "03b3",
+        "title": "ieuwhfi8ygfbnw",
+        "views": 88.52978766401915
+      },
+      {
+        "id": "bb86",
+        "title": "thtrh",
+        "views": 73.56254866628285
+      }
+    ],
+    "comments": [
+      {
+        "id": "1",
+        "text": "a comment about post 1",
+        "postId": "1"
+      },
+      {
+        "id": "2",
+        "text": "another comment about post 1",
+        "postId": "1"
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "Svu": [
+      {
+        "id": "1",
+        "text": "training"
+      },
+      {
+        "id": "2",
+        "text": "nothing"
+      }
+    ]
+  }

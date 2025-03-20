@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "name": "T-Shirt",
+      "price": 500,
+      "category": "Clothings"
+    },
+    {
+      "id": "2",
+      "name": "Pants",
+      "price": 700,
+      "category": "Clothings"
+    },
+    {
+      "id": "d912d426-7c75-4bc6-9c99-3eee60f4798a",
+      "name": "New Product",
+      "price": 49.99,
+      "category": "Gadgets"
+    }
+  ]
